@@ -1,0 +1,65 @@
+*{
+  margin: 0;  
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+}
+body{
+    display: grid;
+    height: 100%;
+    place-items: center;
+    padding-top: 200px;
+    background-color: #1abc8a;
+}
+.wrapper{
+    width: 300px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding-right: 0;
+}
+.title{
+    line-height: 50px;
+    background-color: #16a085;
+    border-radius: 2px 2px 0 0;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.row{
+    height: 40px;
+
+    margin-bottom: 15px;
+    margin-left: 0px;
+}
+.xxz{
+    margin: 10px;
+    padding: 5px 100px 5px 100px;
+    font-weight: 500;
+    font-size: 15px;
+    background-color: #16a085;
+    border-color: #16a085;
+    border-radius: 5px;
+    color: #fff;
+
+}
+
+.fa-solid{
+    background-color: #1abc8a;
+    color: #fff;
+    padding: 10px;
+    padding-left: 1;
+    border-radius: 3px 0 0 3px;
+    margin: 15px;
+}
+.password{
+    font-size: 15px;
+    text-decoration: none;
+    color: #1abc8a;
+    border-color: #1abc5d;
+}
+.sign{
+    text-decoration: none;
+    color: #16a04b;
+}
